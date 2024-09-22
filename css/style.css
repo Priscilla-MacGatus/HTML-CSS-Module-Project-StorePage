@@ -57,3 +57,16 @@ nav li:hover {
 }
 
 /*MAIN SECTION*/
+
+.section_1 {
+  background-image: url("https://github.com/Priscilla-MacGatus/HTML-CSS-Module-Project-StorePage/blob/master/img/first-background.jpg?raw=true");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
