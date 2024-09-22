@@ -43,3 +43,10 @@ nav li {
   padding: 20px;
   color: hsl(220, 7%, 55%);
 }
+
+nav li:first-child {
+  font-weight: 500;
+  font-family: Roboto;
+  font-size: 16px;
+  color: hsl(222, 6%, 31%);
+}
