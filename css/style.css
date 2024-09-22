@@ -110,7 +110,7 @@ nav li:hover {
 .sub-sect2-box1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 190px;
+  column-gap: 200px;
   justify-self: center;
 }
 
