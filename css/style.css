@@ -190,3 +190,9 @@ nav li:hover {
   font-size: 23px;
   color: white;
 }
+
+hr {
+  margin-top: 100px;
+  color: transparent;
+  width: 1300px;
+}
