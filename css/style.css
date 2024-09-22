@@ -168,10 +168,13 @@ nav li:hover {
 
 .sub-sect3-box h2 {
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 400;
   color: hsl(0, 1%, 26%);
   text-wrap: wrap;
   text-align: center;
+  font-style: italic;
+
+  margin-top: 60px;
 }
 
 .section_3-text {
