@@ -102,3 +102,7 @@ nav li:hover {
   font-weight: 200;
   text-align: center;
 }
+
+.sub-sect2-box1 img {
+  width: 150px;
+}
