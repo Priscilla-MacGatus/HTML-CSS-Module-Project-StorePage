@@ -41,4 +41,5 @@ nav li {
   display: inline-block;
   list-style: none;
   padding: 20px;
+  color: hsl(220, 7%, 55%);
 }
