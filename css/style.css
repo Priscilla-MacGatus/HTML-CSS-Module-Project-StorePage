@@ -50,3 +50,10 @@ nav li:first-child {
   font-size: 20px;
   color: hsl(222, 6%, 31%);
 }
+
+nav li:hover {
+  color: hsl(15, 87%, 67%);
+  cursor: pointer;
+}
+
+/*MAIN SECTION*/
