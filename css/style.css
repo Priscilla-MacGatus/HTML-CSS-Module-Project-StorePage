@@ -101,6 +101,7 @@ nav li:hover {
   font-size: 50px;
   font-weight: 200;
   text-align: center;
+  margin-top: 100px;
 }
 
 .sub-sect2-box1 img {
@@ -110,13 +111,14 @@ nav li:hover {
 .sub-sect2-box1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 200px;
+  column-gap: 250px;
   justify-self: center;
+  margin-top: 10px;
 }
 
 .sub-sect2-box2 {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .main-sect2-container {
@@ -124,12 +126,20 @@ nav li:hover {
   grid-template-rows: 1fr 1fr;
   justify-content: space-evenly;
 }
+
+.main-sect2-container h4 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
 .internet {
   text-align: left;
 }
 
 .productivity {
   text-align: center;
+  margin-left: 25px;
+  margin-right: 60px;
 }
 
 .Pay {
