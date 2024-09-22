@@ -191,10 +191,17 @@ nav li:hover {
   color: white;
 }
 
+.quotes {
+  color: hsl(15, 73%, 55%);
+}
+
 hr {
-  margin-top: 100px;
-  color: transparent;
-  width: 1300px;
+  margin-top: 70px;
+  width: 1200px;
+  border: none;
+  height: 0.5px;
+  background-color: lightgray;
+  filter: blur(0.8px);
 }
 
 .social_platform img {
