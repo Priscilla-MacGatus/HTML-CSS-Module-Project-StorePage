@@ -96,3 +96,9 @@ nav li:hover {
 }
 
 /*------------------- SECTION 2-------------*/
+
+.section_2 h1 {
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+}
