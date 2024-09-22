@@ -16,7 +16,7 @@ body {
 
  */
 
-/*HEADER SECTION*/
+/*---------------HEADER SECTION------------------*/
 
 header {
   box-sizing: border-box;
@@ -56,7 +56,9 @@ nav li:hover {
   cursor: pointer;
 }
 
-/*MAIN SECTION*/
+/*--------MAIN SECTION----------------*/
+
+/*------------------- SECTION 1-------------*/
 
 .section_1 {
   background-image: url("https://github.com/Priscilla-MacGatus/HTML-CSS-Module-Project-StorePage/blob/master/img/first-background.jpg?raw=true");
@@ -92,3 +94,5 @@ nav li:hover {
   font-size: 23px;
   margin-top: 20px;
 }
+
+/*------------------- SECTION 2-------------*/
