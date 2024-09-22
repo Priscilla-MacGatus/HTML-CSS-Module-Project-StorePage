@@ -151,7 +151,11 @@ nav li:hover {
 .section_3 {
   display: flex;
   flex-direction: row;
-  width: fit-content;
+  width: 100%;
+}
+
+.section_3 img {
+  width: 800;
 }
 
 .sub-sect3-box {
@@ -159,6 +163,7 @@ nav li:hover {
   display: grid;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
+  background-color: hsl(14, 74%, 95%);
 }
 
 .sub-sect3-box h2 {
@@ -167,4 +172,18 @@ nav li:hover {
   color: hsl(0, 1%, 26%);
   text-wrap: wrap;
   text-align: center;
+}
+
+.section_3-text {
+  width: 50%;
+}
+
+.section_3 button {
+  background-color: hsl(15, 73%, 55%);
+  width: 200px;
+  height: 65px;
+  border-radius: 6px;
+  border: 1px solid hsl(15, 73%, 55%);
+  font-size: 23px;
+  color: white;
 }
