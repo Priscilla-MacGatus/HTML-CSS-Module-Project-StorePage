@@ -155,3 +155,15 @@ input {
 #term-conditions {
   width: 20px;
 }
+
+button {
+  margin: 20px;
+  background-color: hsl(15, 73%, 55%);
+  color: white;
+  width: 250px;
+  height: 65px;
+  border-radius: 6px;
+  border: 1px solid hsl(15, 73%, 55%);
+  font-size: 23px;
+  margin-top: 50px;
+}
