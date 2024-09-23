@@ -92,3 +92,17 @@ input {
   border-radius: 6px;
   margin-bottom: 27px;
 }
+
+.Names {
+  display: flex;
+  column-gap: 15px;
+}
+
+.Addresses {
+  display: flex;
+  flex-direction: column;
+}
+
+#address {
+  width: 525px;
+}
