@@ -144,6 +144,8 @@ main {
   width: 15px;
   accent-color: orange;
   border: 2px solid hsl(0, 0%, 40%);
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 #orange {
@@ -176,6 +178,8 @@ main {
 
 .Terms-and-Conditions label {
   text-align: right;
+  font-size: 20px;
+  font-style: italic;
 }
 
 #term-conditions {
