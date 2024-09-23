@@ -178,3 +178,43 @@ button {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+/*-------------------------FOOTER----------------------*/
+
+hr {
+  margin-top: 0px;
+  width: 1500px;
+  border: none;
+  height: 0.5px;
+  background-color: lightgray;
+  filter: blur(0.8px);
+}
+
+.social_platform img {
+  width: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 0.3px solid lightgray;
+}
+
+footer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+footer h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer p {
+  font-weight: 100;
+  font-size: 18px;
+  margin-top: 3px;
+  color: grey;
+}
+
+.author {
+  margin-bottom: 20px;
+}
