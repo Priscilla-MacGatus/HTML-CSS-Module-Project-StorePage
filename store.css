@@ -174,7 +174,16 @@ main {
   padding: 2px;
 }
 
-#term-conditions {
+.Terms-and-Conditions {
+  margin-top: 50px;
+  background-color: grey;
+}
+
+.Terms-and-Conditions label {
+  text-align: right;
+}
+
+. #term-conditions {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
