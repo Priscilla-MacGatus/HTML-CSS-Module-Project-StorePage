@@ -167,3 +167,14 @@ button {
   font-size: 23px;
   margin-top: 50px;
 }
+
+/*-------------------------SECTION 2----------------------*/
+.section_2 {
+  width: 50%;
+}
+.section_2 img {
+  height: 1050px;
+  width: 1000px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
