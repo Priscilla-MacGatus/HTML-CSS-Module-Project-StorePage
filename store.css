@@ -124,3 +124,35 @@ input {
 }
 
 #grey {
+  #grey {
+  width: 15px;
+  position: relative;
+  top: 17px;
+}
+
+#orange {
+  width: 15px;
+  position: relative;
+  top: 17px;
+}
+
+.checkbox {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.checkbox h5 {
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#check-mark {
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+#term-conditions {
+  width: 20px;
+}
