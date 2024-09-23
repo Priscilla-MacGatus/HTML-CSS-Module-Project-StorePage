@@ -142,16 +142,12 @@ main {
 
 #grey {
   width: 15px;
-  position: relative;
-  top: 17px;
   accent-color: orange;
   border: 2px solid hsl(0, 0%, 40%);
 }
 
 #orange {
   width: 15px;
-  position: relative;
-  top: 17px;
   accent-color: orange;
   border: 2px solid hsl(0, 0%, 40%);
   margin-bottom: 20px;
@@ -188,8 +184,6 @@ main {
   -moz-appearance: none;
   width: 20px;
   height: 20px;
-  position: relative;
-  bottom: -2px;
   border: 2px solid hsl(0, 0%, 40%);
 }
 
