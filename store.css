@@ -11,11 +11,22 @@ header {
   grid-template-columns: 0.5fr 0.5fr;
   width: 100%;
   padding-left: 60px;
+  margin-bottom: 0px;
 }
 
 header img {
   width: 25px;
   padding: 30px;
+}
+
+.header-line {
+  margin-top: 0px;
+  width: 2000px;
+  border: none;
+  height: 0.3px;
+  background-color: lightgray;
+  filter: blur(0.8px);
+  margin-bottom: 0px;
 }
 
 .nav-container {
