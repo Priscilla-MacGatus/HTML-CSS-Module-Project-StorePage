@@ -106,3 +106,21 @@ input {
 #address {
   width: 525px;
 }
+
+.City-Postcode {
+  display: flex;
+  column-gap: 10px;
+}
+
+#city {
+  width: 250px;
+  height: 55px;
+  border: 2px solid hsl(0, 0%, 40%);
+  border-radius: 6px;
+}
+
+#postcode {
+  width: 265px;
+}
+
+#grey {
