@@ -127,12 +127,15 @@ input {
   width: 15px;
   position: relative;
   top: 17px;
+  accent-color: orange;
 }
 
 #orange {
   width: 15px;
+  border: 1px solid;
   position: relative;
   top: 17px;
+  accent-color: orange;
 }
 
 .checkbox {
