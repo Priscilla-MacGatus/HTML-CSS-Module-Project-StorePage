@@ -130,6 +130,8 @@ main {
   border-radius: 6px;
   margin-bottom: 27px;
   border: 2px solid hsl(0, 0%, 40%);
+  font-size: 19px;
+  background-color: white;
 }
 
 #postcode {
