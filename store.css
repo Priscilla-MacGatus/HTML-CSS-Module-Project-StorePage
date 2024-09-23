@@ -156,7 +156,19 @@ input {
 }
 
 #term-conditions {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   width: 20px;
+  height: 200px;
+  position: relative;
+  top: 18px;
+}
+
+#term-conditions:checked {
+  background-image: url("level-2/checkmark.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 button {
