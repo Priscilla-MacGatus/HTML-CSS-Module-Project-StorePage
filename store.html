@@ -47,24 +47,24 @@
 
           <div class="Names">
             <div class="first-name">
-              <label for="firstname">First name *</label>
+              <label for="firstname" aria-required="true">First name *</label>
               <br />
               <input type="text" id="firstname" />
             </div>
 
             <div class="last-name">
-              <label for="lastname">Last name *</label>
+              <label for="lastname" aria-required="true" >Last name *</label>
               <input type="text" id="lastname" />
               <br />
             </div>
           </div>
           <!------------------------ADDRESS-------------------------------------->
           <div class="Addresses">
-            <label for="address">Address*</label>
+            <label for="address" aria-required="true" >Address*</label>
 
             <input type="text" id="address" />
 
-            <label for="address2"> Address 2*</label>
+            <label for="address2" aria-required="true"> Address 2*</label>
 
             <input type="text" id="address" />
           </div>
@@ -72,10 +72,10 @@
           <!-------------------------CITY/POSTCODE------------------------------>
           <div class="City-Postcode">
             <div>
-              <label for="city">City*</label>
+              <label for="city" aria-required="true">City*</label>
               <br />
-              <select id="city" required>
-                 <option value="" disabled selected>Select your city</option>
+              <select id="city" >
+                 <option value="" disabled selected>Select your city.. </option>
                 <option value="Barcelona">Barcelona</option>
                 <option value="Madrid">Madrid</option>
                 <option value="Murcia">Murcia</option>
@@ -86,18 +86,18 @@
             </div>
 
             <div>
-              <label for="postcode">Postcode*</label>
+              <label for="postcode" aria-required="true">Postcode*</label>
               <br />
               <input type="number" id="postcode" />
             </div>
-          </div>
+          </div>s
 
           <!------------------------CHECKBOX--------------------------------->
           <div class="checkbox">
             <h5>Select a color :</h5>
 
             <input type="radio" id="orange" />
-            <label for="orange">Karma Orange</label>
+            <label for="orange" >Karma Orange</label>
 
             <input type="radio" id="grey" />
             <label for="grey"> Grey Space</label>
