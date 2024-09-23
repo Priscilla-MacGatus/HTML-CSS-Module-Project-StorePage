@@ -1,0 +1,44 @@
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*---------------HEADER SECTION------------------*/
+
+header {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  width: 100%;
+  padding-left: 60px;
+}
+
+header img {
+  width: 25px;
+  padding: 30px;
+}
+
+.nav-container {
+  display: grid;
+  justify-items: center;
+  text-wrap: nowrap;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+  font-size: 20px;
+  color: hsl(220, 7%, 55%);
+}
+
+nav li:first-child {
+  font-weight: 500;
+  font-size: 20px;
+  color: hsl(222, 6%, 31%);
+}
+
+nav li:hover {
+  color: hsl(15, 87%, 67%);
+  cursor: pointer;
+}
