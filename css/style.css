@@ -45,6 +45,10 @@ nav li {
   color: hsl(220, 7%, 55%);
 }
 
+.menu-hamburger {
+  display: none;
+}
+
 nav li:first-child {
   font-weight: 500;
   font-size: 20px;
@@ -231,4 +235,26 @@ footer p {
 
 .author {
   margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  /*---------------HEADER SECTION------------------*/
+  header {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    width: 100%;
+  }
+
+  header img {
+    width: 25px;
+    padding: 30px;
+  }
+
+  .menu-hamburger {
+    display: flex;
+  }
+
+  nav li {
+    display: none;
+  }
 }
