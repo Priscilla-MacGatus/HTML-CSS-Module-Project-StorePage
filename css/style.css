@@ -289,6 +289,16 @@ footer p {
     margin-top: 30px;
   }
 
+  .section_1 button {
+    background-color: hsl(15, 73%, 55%);
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid hsl(15, 73%, 55%);
+    font-size: 23px;
+    margin-bottom: 50px;
+  }
+
   /*------------------- SECTION 2-------------*/
   .main-sect2-container {
     display: none;
@@ -302,5 +312,41 @@ footer p {
 
   .icon-display-for-media-queries-only img {
     width: 50px;
+  }
+
+  /*------------------- SECTION 3-------------*/
+
+  .section_3 {
+    display: block;
+  }
+
+  .section_3 img {
+    width: 100%;
+  }
+
+  .sub-sect3-box {
+    display: grid;
+    width: 100%;
+  }
+
+  .sub-sect3-box h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(0, 1%, 26%);
+    text-wrap: wrap;
+    text-align: center;
+    font-style: italic;
+    padding: 30px;
+    margin-top: 0;
+  }
+
+  .section_3 button {
+    background-color: hsl(15, 73%, 55%);
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid hsl(15, 73%, 55%);
+    font-size: 23px;
+    color: white;
   }
 }
