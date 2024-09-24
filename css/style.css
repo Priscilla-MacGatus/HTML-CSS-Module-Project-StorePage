@@ -298,4 +298,8 @@ footer p {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   }
+
+  .icon-display-for-media-queries-only img {
+    width: 50px;
+  }
 }
