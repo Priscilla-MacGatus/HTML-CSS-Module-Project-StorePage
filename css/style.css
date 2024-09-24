@@ -131,6 +131,10 @@ nav li:hover {
   justify-content: space-evenly;
 }
 
+.icon-display-for-media-queries-only {
+  display: none;
+}
+
 .main-sect2-container h4 {
   font-size: 30px;
   font-weight: 400;
