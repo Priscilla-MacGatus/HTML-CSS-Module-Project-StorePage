@@ -288,4 +288,14 @@ footer p {
     font-size: 35px;
     margin-top: 30px;
   }
+
+  /*------------------- SECTION 2-------------*/
+  .main-sect2-container {
+    display: none;
+  }
+
+  .icon-display-for-media-queries-only {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
 }
