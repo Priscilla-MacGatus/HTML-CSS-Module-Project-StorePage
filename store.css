@@ -292,8 +292,7 @@ footer p {
   /*--------------- SECTION 1------------------*/
 
   .section_1 {
-    width: 50%;
-    display: grid;
+    width: 100%;
     color: hsl(0, 0%, 40%);
     font-size: 20px;
     margin-bottom: 0px;
@@ -308,5 +307,25 @@ footer p {
     margin-top: 100px;
     text-align: center;
     width: 50%;
+  }
+
+  #firstname {
+    width: 50px;
+    height: 50px;
+    border: 2px solid hsl(0, 0%, 40%);
+    border-radius: 6px;
+    margin-bottom: 27px;
+  }
+
+  .Names {
+    display: block;
+  }
+
+  .Addresses {
+    display: block;
+  }
+
+  .City-Postcode {
+    display: block;
   }
 }
