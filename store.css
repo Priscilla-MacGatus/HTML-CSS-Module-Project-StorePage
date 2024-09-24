@@ -318,16 +318,19 @@ footer p {
   }
 
   #lastname {
-    width: 100%;
+    width: 8S0%;
   }
 
   #address {
+    width: 80%;
   }
 
   #city {
+    width: 80%;
   }
 
   #postcode {
+    width: 80%;
   }
 
   .Names {
