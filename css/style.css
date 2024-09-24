@@ -241,7 +241,9 @@ footer p {
   margin-bottom: 20px;
 }
 
-@media (max-width: 565px) {
+/*---------------BREAKPOINT SECTION------------------*/
+
+@media (min-width: 565px) {
   /*---------------HEADER SECTION------------------*/
   header {
     display: grid;
