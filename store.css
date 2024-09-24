@@ -21,7 +21,7 @@ header img {
 
 .header-line {
   margin-top: 0px;
-  width: 2000px;
+  width: 100%;
   border: none;
   height: 0.3px;
   background-color: lightgray;
@@ -226,7 +226,7 @@ button {
 
 hr {
   margin-top: 0px;
-  width: 1500px;
+  width: 100%;
   border: none;
   height: 0.5px;
   background-color: lightgray;
