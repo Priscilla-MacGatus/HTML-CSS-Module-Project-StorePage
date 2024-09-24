@@ -217,11 +217,11 @@ button {
 
 /*-------------------------SECTION 2----------------------*/
 .section_2 {
-  width: 50%;
+  width: 100%;
 }
 .section_2 img {
-  height: 1050px;
-  width: 1000px;
+  height: 100%;
+  width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -347,7 +347,7 @@ footer p {
 
   /*-------------------------SECTION 2----------------------*/
   .section_2 {
-    width: 50%;
+    width: 100%;
   }
   .section_2 img {
     height: 100px;
