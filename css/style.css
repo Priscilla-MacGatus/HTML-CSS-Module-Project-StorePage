@@ -286,13 +286,13 @@ footer p {
 
   .section_1 h1 {
     font-weight: 200;
-    font-size: 50px;
+    font-size: 35px;
     margin-bottom: 0px;
   }
 
   .section_1 h3 {
     font-weight: 200;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 30px;
   }
 
@@ -309,6 +309,11 @@ footer p {
   /*------------------- SECTION 2-------------*/
   .main-sect2-container {
     display: none;
+  }
+  .section_2 h1 {
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight: 500;
   }
 
   .icon-display-for-media-queries-only {
