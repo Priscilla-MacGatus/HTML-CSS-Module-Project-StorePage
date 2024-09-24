@@ -277,6 +277,10 @@ footer p {
     padding-left: 0px;
   }
 
+  .header-menu {
+    display: inline;
+  }
+
   .logo {
     padding: 30px;
   }
