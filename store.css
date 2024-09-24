@@ -261,3 +261,23 @@ footer p {
 .author {
   margin-bottom: 20px;
 }
+/*---------------MEDIA QUERIES MOBILE------------------*/
+
+/*---------------HEADER SECTION------------------*/
+
+@media (max-width: 565px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0px;
+  }
+
+  .logo {
+    padding: 30px;
+  }
+
+  .nav-container {
+    display: none;
+  }
+}
