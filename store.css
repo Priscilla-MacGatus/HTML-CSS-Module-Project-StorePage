@@ -279,6 +279,7 @@ footer p {
 
   main {
     display: inline;
+    padding: 0px;
   }
 
   .header-menu {
@@ -299,7 +300,7 @@ footer p {
     width: 100%;
     color: hsl(0, 0%, 40%);
     font-size: 20px;
-    margin-bottom: 0px;
+    margin: 0px;
   }
 
   .section_1 h1 {
