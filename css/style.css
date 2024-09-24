@@ -256,6 +256,13 @@ footer p {
 
   .menu-hamburger {
     display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav-container {
+    display: grid;
+    justify-items: end;
+    text-wrap: nowrap;
   }
 
   nav li {
