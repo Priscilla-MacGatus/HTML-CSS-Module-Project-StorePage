@@ -310,7 +310,7 @@ footer p {
   }
 
   #firstname {
-    width: 100%;
+    width: 95%;
     height: 50px;
     border: 2px solid hsl(0, 0%, 40%);
     border-radius: 6px;
@@ -318,19 +318,19 @@ footer p {
   }
 
   #lastname {
-    width: 80%;
+    width: 95%;
   }
 
   #address {
-    width: 80%;
+    width: 95%;
   }
 
   #city {
-    width: 80%;
+    width: 95%;
   }
 
   #postcode {
-    width: 80%;
+    width: 95%;
   }
 
   .Names {
@@ -343,5 +343,16 @@ footer p {
 
   .City-Postcode {
     display: block;
+  }
+
+  /*-------------------------SECTION 2----------------------*/
+  .section_2 {
+    width: 50%;
+  }
+  .section_2 img {
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
