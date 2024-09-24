@@ -301,6 +301,8 @@ footer p {
     color: hsl(0, 0%, 40%);
     font-size: 20px;
     margin: 0px;
+    box-sizing: border-box;
+    padding: 20px;
   }
 
   .section_1 h1 {
@@ -315,7 +317,7 @@ footer p {
   }
 
   #firstname {
-    width: 95%;
+    width: 90%;
     height: 50px;
     border: 2px solid hsl(0, 0%, 40%);
     border-radius: 6px;
@@ -323,19 +325,19 @@ footer p {
   }
 
   #lastname {
-    width: 95%;
+    width: 90%;
   }
 
   #address {
-    width: 95%;
+    width: 90%;
   }
 
   #city {
-    width: 95%;
+    width: 90%;
   }
 
   #postcode {
-    width: 95%;
+    width: 90%;
   }
 
   .Names {
