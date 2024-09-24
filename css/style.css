@@ -297,6 +297,7 @@ footer p {
   .icon-display-for-media-queries-only {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
   }
 
   .icon-display-for-media-queries-only img {
