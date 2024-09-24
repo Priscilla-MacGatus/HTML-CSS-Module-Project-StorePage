@@ -241,7 +241,7 @@ footer p {
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 565px) {
   /*---------------HEADER SECTION------------------*/
   header {
     display: grid;
