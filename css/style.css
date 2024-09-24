@@ -241,7 +241,7 @@ footer p {
   margin-bottom: 20px;
 }
 
-/*---------------BREAKPOINT SECTION------------------*/
+/*---------------BREAKPOINT SECTION ------------------*/
 
 @media (min-width: 565px) {
   /*---------------HEADER SECTION------------------*/
@@ -363,5 +363,252 @@ footer p {
     border: 1px solid hsl(15, 73%, 55%);
     font-size: 18px;
     color: white;
+  }
+}
+
+/*---------------BREAKPOINT SECTION------------------*/
+
+/*---------------BREAKPOINT SECTION desktop------------------*/
+
+@media (min-width: 900px) {
+  body {
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /**
+ * Add your custom styles below
+ * 
+ * Remember: 
+ * - Be organized, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
+
+ */
+
+  /*---------------HEADER SECTION------------------*/
+
+  header {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    width: 100%;
+    padding-left: 60px;
+  }
+
+  header img {
+    width: 25px;
+    padding: 30px;
+  }
+
+  .nav-container {
+    display: grid;
+    justify-items: center;
+    text-wrap: nowrap;
+  }
+
+  nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+    color: hsl(220, 7%, 55%);
+  }
+
+  .menu-hamburger {
+    display: none;
+  }
+
+  nav li:first-child {
+    font-weight: 500;
+    font-size: 20px;
+    color: hsl(222, 6%, 31%);
+  }
+
+  nav li:hover {
+    color: hsl(15, 87%, 67%);
+    cursor: pointer;
+  }
+
+  /*--------MAIN SECTION----------------*/
+
+  /*------------------- SECTION 1-------------*/
+
+  .section_1 {
+    background-image: url("https://github.com/Priscilla-MacGatus/HTML-CSS-Module-Project-StorePage/blob/master/img/first-background.jpg?raw=true");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+
+  .section_1 h1 {
+    font-weight: 200;
+    font-size: 70px;
+    margin-bottom: 0px;
+  }
+
+  .section_1 h3 {
+    font-weight: 200;
+    font-size: 40px;
+    margin-top: 30px;
+  }
+
+  .section_1 button {
+    background-color: hsl(15, 73%, 55%);
+    width: 200px;
+    height: 65px;
+    border-radius: 6px;
+    border: 1px solid hsl(15, 73%, 55%);
+    font-size: 23px;
+    margin-top: 20px;
+  }
+
+  /*------------------- SECTION 2-------------*/
+
+  .section_2 h1 {
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .sub-sect2-box1 img {
+    width: 150px;
+  }
+
+  .sub-sect2-box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 250px;
+    justify-self: center;
+    margin-top: 10px;
+  }
+
+  .sub-sect2-box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .main-sect2-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-evenly;
+  }
+
+  .icon-display-for-media-queries-only {
+    display: none;
+  }
+
+  .main-sect2-container h4 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .internet {
+    text-align: left;
+  }
+
+  .productivity {
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 60px;
+  }
+
+  .Pay {
+    text-align: center;
+  }
+
+  /*------------------- SECTION 3-------------*/
+
+  .section_3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .section_3 img {
+    width: 800;
+  }
+
+  .sub-sect3-box {
+    width: fit-content;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    background-color: hsl(14, 74%, 95%);
+  }
+
+  .sub-sect3-box h2 {
+    font-size: 50px;
+    font-weight: 400;
+    color: hsl(0, 1%, 26%);
+    text-wrap: wrap;
+    text-align: center;
+    font-style: italic;
+
+    margin-top: 60px;
+  }
+
+  .section_3-text {
+    width: 50%;
+  }
+
+  .section_3 button {
+    background-color: hsl(15, 73%, 55%);
+    width: 200px;
+    height: 65px;
+    border-radius: 6px;
+    border: 1px solid hsl(15, 73%, 55%);
+    font-size: 23px;
+    color: white;
+  }
+
+  .quotes {
+    color: hsl(15, 73%, 55%);
+  }
+
+  hr {
+    margin-top: 70px;
+    width: 100%;
+    border: none;
+    height: 0.5px;
+    background-color: lightgray;
+    filter: blur(0.8px);
+  }
+
+  .social_platform img {
+    width: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 0.3px solid lightgray;
+  }
+
+  footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
+
+  footer h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  footer p {
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 3px;
+    color: grey;
+  }
+
+  .author {
+    margin-bottom: 20px;
   }
 }
