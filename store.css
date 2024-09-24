@@ -310,11 +310,24 @@ footer p {
   }
 
   #firstname {
-    width: 50px;
+    width: 100%;
     height: 50px;
     border: 2px solid hsl(0, 0%, 40%);
     border-radius: 6px;
     margin-bottom: 27px;
+  }
+
+  #lastname {
+    width: 100%;
+  }
+
+  #address {
+  }
+
+  #city {
+  }
+
+  #postcode {
   }
 
   .Names {
