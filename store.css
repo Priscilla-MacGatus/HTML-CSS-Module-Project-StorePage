@@ -14,6 +14,10 @@ header {
   margin-bottom: 0px;
 }
 
+.header-menu {
+  display: none;
+}
+
 header img {
   width: 25px;
   padding: 30px;
@@ -279,5 +283,26 @@ footer p {
 
   .nav-container {
     display: none;
+  }
+
+  /*--------------- SECTION 1------------------*/
+
+  .section_1 {
+    width: 50%;
+    display: grid;
+    color: hsl(0, 0%, 40%);
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .section_1 h1 {
+    text-wrap: wrap;
+    font-size: 30px;
+    font-weight: 450;
+    color: hsl(15, 69%, 58%);
+    margin-bottom: 70px;
+    margin-top: 100px;
+    text-align: center;
+    width: 50%;
   }
 }
