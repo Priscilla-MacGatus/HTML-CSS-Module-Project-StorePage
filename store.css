@@ -4,17 +4,17 @@ body {
 }
 
 /*---------------HEADER SECTION------------------*/
+
 header {
-  box-sizing: border-box;
   display: flex;
-  width: 100%;
-  height: 50%;
-  padding-left: 60px;
-  margin-bottom: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0px;
 }
 
-.header-menu {
-  display: none;
+main {
+  display: inline;
+  padding: 0px;
 }
 
 header img {
@@ -32,64 +32,48 @@ header img {
   margin-bottom: 0px;
 }
 
+.header-menu {
+  display: inline;
+}
+
+.logo {
+  padding: 10px;
+}
+
 .nav-container {
-  display: grid;
-  justify-items: end;
-  text-wrap: nowrap;
+  display: none;
 }
 
-nav li {
-  display: inline-block;
-  list-style: none;
-  padding: 20px;
-  font-size: 20px;
-  color: hsl(220, 7%, 55%);
+nav {
+  display: none;
 }
 
-nav li:first-child {
-  font-weight: 500;
-  font-size: 20px;
-  color: hsl(222, 6%, 31%);
-}
-
-nav li:hover {
-  color: hsl(15, 87%, 67%);
-  cursor: pointer;
-}
 /*----------------------------------MAIN SECTION--------------------------------*/
 
 /*-----------------SECTION 1------------------*/
 
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: fit-content;
-  padding: 20px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
 .section_1 {
-  width: 50%;
-  display: grid;
+  width: 100%;
   color: hsl(0, 0%, 40%);
   font-size: 20px;
-  margin-left: 100px;
-  margin-bottom: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .section_1 h1 {
   text-wrap: wrap;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 450;
   color: hsl(15, 69%, 58%);
   margin-bottom: 70px;
   margin-top: 100px;
-  text-align: left;
+  text-align: center;
+  width: 50%;
 }
 
 #firstname {
-  width: 250px;
+  width: 90%;
   height: 50px;
   border: 2px solid hsl(0, 0%, 40%);
   border-radius: 6px;
@@ -97,52 +81,31 @@ main {
 }
 
 #lastname {
-  width: 250px;
-  height: 50px;
-  border: 2px solid hsl(0, 0%, 40%);
-  border-radius: 6px;
-  margin-bottom: 27px;
-}
-
-.Names {
-  display: flex;
-  column-gap: 15px;
-}
-
-.Addresses {
-  display: flex;
-  flex-direction: column;
+  width: 90%;
 }
 
 #address {
-  width: 525px;
-  height: 50px;
-  border: 2px solid hsl(0, 0%, 40%);
-  border-radius: 6px;
-  margin-bottom: 27px;
-}
-
-.City-Postcode {
-  display: flex;
-  column-gap: 10px;
+  width: 90%;
 }
 
 #city {
-  width: 250px;
-  height: 55px;
-  border-radius: 6px;
-  margin-bottom: 27px;
-  border: 2px solid hsl(0, 0%, 40%);
-  font-size: 19px;
-  background-color: white;
+  width: 90%;
 }
 
 #postcode {
-  width: 265px;
-  height: 50px;
-  border: 2px solid hsl(0, 0%, 40%);
-  border-radius: 6px;
-  margin-bottom: 27px;
+  width: 90%;
+}
+
+.Names {
+  display: block;
+}
+
+.Addresses {
+  display: block;
+}
+
+.City-Postcode {
+  display: block;
 }
 
 #grey {
@@ -218,22 +181,17 @@ button {
 .section_2 {
   width: 100%;
 }
+
 .section_2 img {
-  height: 100%;
   width: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  height: 50%;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 /*-------------------------FOOTER----------------------*/
-
 .footer-line {
-  margin-top: 0px;
   width: 100%;
-  border: none;
-  height: 0.5px;
-  background-color: lightgray;
-  filter: blur(0.8px);
 }
 
 .social_platform img {
@@ -264,63 +222,81 @@ footer p {
 .author {
   margin-bottom: 20px;
 }
-/*---------------MEDIA QUERIES MOBILE------------------*/
+/*---------------MEDIA QUERIES  MEDIUM------------------*/
 
 /*---------------HEADER SECTION------------------*/
 
 @media (min-width: 565px) {
   header {
+    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 0px;
-  }
-
-  main {
-    display: inline;
-    padding: 0px;
+    width: 100%;
+    height: 50%;
+    padding-left: 60px;
+    margin-bottom: 0px;
   }
 
   .header-menu {
-    display: inline;
-  }
-
-  .logo {
-    padding: 10px;
+    display: none;
   }
 
   .nav-container {
-    display: none;
+    display: grid;
+    justify-items: end;
+    text-wrap: nowrap;
   }
 
-  nav {
-    display: none;
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+    color: hsl(220, 7%, 55%);
+  }
+
+  nav li:first-child {
+    font-weight: 500;
+    font-size: 20px;
+    color: hsl(222, 6%, 31%);
+  }
+
+  nav li:hover {
+    color: hsl(15, 87%, 67%);
+    cursor: pointer;
   }
 
   /*--------------- SECTION 1------------------*/
 
   .section_1 {
-    width: 100%;
+    width: 50%;
+    display: grid;
     color: hsl(0, 0%, 40%);
     font-size: 20px;
-    margin: 0px;
-    box-sizing: border-box;
-    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 0px;
   }
 
   .section_1 h1 {
     text-wrap: wrap;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 450;
     color: hsl(15, 69%, 58%);
     margin-bottom: 70px;
     margin-top: 100px;
-    text-align: center;
-    width: 50%;
+    text-align: left;
   }
 
   #firstname {
-    width: 90%;
+    width: 250px;
     height: 50px;
     border: 2px solid hsl(0, 0%, 40%);
     border-radius: 6px;
@@ -328,46 +304,72 @@ footer p {
   }
 
   #lastname {
-    width: 90%;
-  }
-
-  #address {
-    width: 90%;
-  }
-
-  #city {
-    width: 90%;
+    width: 250px;
+    height: 50px;
+    border: 2px solid hsl(0, 0%, 40%);
+    border-radius: 6px;
+    margin-bottom: 27px;
   }
 
   #postcode {
-    width: 90%;
+    width: 265px;
+    height: 50px;
+    border: 2px solid hsl(0, 0%, 40%);
+    border-radius: 6px;
+    margin-bottom: 27px;
+  }
+
+  #address {
+    width: 525px;
+    height: 50px;
+    border: 2px solid hsl(0, 0%, 40%);
+    border-radius: 6px;
+    margin-bottom: 27px;
+  }
+
+  #city {
+    width: 250px;
+    height: 55px;
+    border-radius: 6px;
+    margin-bottom: 27px;
+    border: 2px solid hsl(0, 0%, 40%);
+    font-size: 19px;
+    background-color: white;
   }
 
   .Names {
-    display: block;
+    display: flex;
+    column-gap: 15px;
   }
 
   .Addresses {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .City-Postcode {
-    display: block;
+    display: flex;
+    column-gap: 10px;
   }
-
   /*-------------------------SECTION 2----------------------*/
   .section_2 {
     width: 100%;
   }
+
   .section_2 img {
+    height: 100%;
     width: 100%;
-    height: 50%;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .footer-line {
+    margin-top: 0px;
     width: 100%;
+    border: none;
+    height: 0.5px;
+    background-color: lightgray;
+    filter: blur(0.8px);
   }
 }
 
