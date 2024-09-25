@@ -1,4 +1,5 @@
 body {
+  width: 100%;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -10,11 +11,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   padding-left: 0px;
-}
-
-main {
-  display: inline;
-  padding: 0px;
 }
 
 header img {
@@ -52,6 +48,12 @@ nav {
 
 /*-----------------SECTION 1------------------*/
 
+main {
+  display: inline;
+  padding: 0px;
+  width: 100%;
+}
+
 .section_1 {
   width: 100%;
   color: hsl(0, 0%, 40%);
@@ -73,7 +75,7 @@ nav {
 }
 
 #firstname {
-  width: 90%;
+  width: 70%;
   height: 50px;
   border: 2px solid hsl(0, 0%, 40%);
   border-radius: 6px;
@@ -81,19 +83,35 @@ nav {
 }
 
 #lastname {
-  width: 90%;
+  width: 70%;
+  height: 50px;
+  border: 2px solid hsl(0, 0%, 40%);
+  border-radius: 6px;
+  margin-bottom: 27px;
 }
 
 #address {
-  width: 90%;
+  width: 70%;
+  height: 50px;
+  border: 2px solid hsl(0, 0%, 40%);
+  border-radius: 6px;
+  margin-bottom: 27px;
 }
 
 #city {
-  width: 90%;
+  width: 70%;
+  height: 50px;
+  border: 2px solid hsl(0, 0%, 40%);
+  border-radius: 6px;
+  margin-bottom: 27px;
 }
 
 #postcode {
-  width: 90%;
+  width: 70%;
+  height: 50px;
+  border: 2px solid hsl(0, 0%, 40%);
+  border-radius: 6px;
+  margin-bottom: 27px;
 }
 
 .Names {
@@ -165,18 +183,6 @@ nav {
   background-repeat: no-repeat;
 }
 
-button {
-  margin: 20px;
-  background-color: hsl(15, 73%, 55%);
-  color: white;
-  width: 250px;
-  height: 65px;
-  border-radius: 6px;
-  border: 1px solid hsl(15, 73%, 55%);
-  font-size: 23px;
-  margin-top: 50px;
-}
-
 /*-------------------------SECTION 2----------------------*/
 .section_2 {
   width: 100%;
@@ -187,6 +193,18 @@ button {
   height: 50%;
   margin-top: 100px;
   margin-bottom: 50px;
+}
+
+button {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid hsl(15, 73%, 55%);
+  background-color: hsl(15, 73%, 55%);
+  color: white;
+  width: 200px;
+  height: 65px;
+  border-radius: 6px;
 }
 
 /*-------------------------FOOTER----------------------*/
@@ -226,7 +244,7 @@ footer p {
 
 /*---------------HEADER SECTION------------------*/
 
-@media (min-width: 565px) {
+@media (min-width: 768px) {
   header {
     box-sizing: border-box;
     display: flex;
