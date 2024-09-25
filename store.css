@@ -64,13 +64,15 @@ main {
 }
 
 .section_1 h1 {
-  font-size: 30px;
-  font-weight: 450;
+  font-size: 20px;
+  font-weight: 500;
   color: hsl(15, 69%, 58%);
   margin-bottom: 35px;
   margin-top: 15px;
   text-align: center;
   width: 50%;
+  position: relative;
+  left: 20px;
 }
 
 #firstname {
