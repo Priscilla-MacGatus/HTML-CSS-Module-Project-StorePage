@@ -90,7 +90,15 @@ main {
   margin-bottom: 27px;
 }
 
-#address {
+#address1 {
+  width: 70%;
+  height: 50px;
+  border: 2px solid hsl(0, 0%, 40%);
+  border-radius: 6px;
+  margin-bottom: 27px;
+}
+
+#address2 {
   width: 70%;
   height: 50px;
   border: 2px solid hsl(0, 0%, 40%);
@@ -340,7 +348,15 @@ footer p {
     margin-bottom: 27px;
   }
 
-  #address {
+  #address1 {
+    width: 350px;
+    height: 50px;
+    border: 2px solid hsl(0, 0%, 40%);
+    border-radius: 6px;
+    margin-bottom: 27px;
+  }
+
+  #address2 {
     width: 350px;
     height: 50px;
     border: 2px solid hsl(0, 0%, 40%);
@@ -519,7 +535,15 @@ footer p {
     flex-direction: column;
   }
 
-  #address {
+  #address1 {
+    width: 525px;
+    height: 50px;
+    border: 2px solid hsl(0, 0%, 40%);
+    border-radius: 6px;
+    margin-bottom: 27px;
+  }
+
+  #address2 {
     width: 525px;
     height: 50px;
     border: 2px solid hsl(0, 0%, 40%);
