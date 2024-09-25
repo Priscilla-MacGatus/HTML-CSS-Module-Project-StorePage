@@ -21,7 +21,6 @@ header {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr;
   width: 100%;
-  background-color: green;
 }
 
 header img {
@@ -61,7 +60,8 @@ nav li {
 
 .section_1 h1 {
   font-weight: 200;
-  font-size: 35px;
+  font-size: 45px;
+  text-wrap: wrap;
   margin-bottom: 0px;
 }
 
@@ -85,6 +85,7 @@ nav li {
 .main-sect2-container {
   display: none;
 }
+
 .section_2 h1 {
   font-size: 30px;
   text-wrap: wrap;
@@ -101,7 +102,7 @@ nav li {
 }
 
 .icon-display-for-media-queries-only img {
-  width: 50px;
+  width: 100px;
 }
 
 /*------------------- SECTION 3-------------*/
