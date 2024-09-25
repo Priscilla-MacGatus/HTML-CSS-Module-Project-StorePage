@@ -168,6 +168,8 @@ footer p {
   margin-bottom: 20px;
 }
 
+/*---------------MEDIUM SCREEN ------------------*/
+
 /*---------------BREAKPOINT SECTION ------------------*/
 
 @media (min-width: 565px) {
@@ -396,9 +398,9 @@ footer p {
   }
 }
 
-/*---------------BREAKPOINT SECTION------------------*/
+/*----------------------------DESKTOP------------------*/
 
-/*---------------BREAKPOINT SECTION desktop------------------*/
+/*---------------BREAKPOINT SECTION------------------*/
 
 @media (min-width: 900px) {
   body {
