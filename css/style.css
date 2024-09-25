@@ -199,7 +199,6 @@ footer p {
     grid-template-columns: 0.5fr 0.5fr;
     width: 100%;
     padding-left: 60px;
-    background-color: red;
   }
 
   header img {
@@ -447,7 +446,6 @@ footer p {
     grid-template-columns: 0.5fr 0.5fr;
     width: 100%;
     padding-left: 60px;
-    background-color: blue;
   }
 
   header img {
