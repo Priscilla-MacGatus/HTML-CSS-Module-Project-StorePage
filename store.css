@@ -245,6 +245,10 @@ footer p {
 /*---------------HEADER SECTION------------------*/
 
 @media (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+
   header {
     box-sizing: border-box;
     display: flex;
@@ -295,11 +299,10 @@ footer p {
   /*--------------- SECTION 1------------------*/
 
   .section_1 {
-    width: 50%;
+    width: 100%;
     display: grid;
     color: hsl(0, 0%, 40%);
     font-size: 20px;
-    margin-left: 100px;
     margin-bottom: 0px;
   }
 
@@ -314,7 +317,7 @@ footer p {
   }
 
   #firstname {
-    width: 250px;
+    width: 200px;
     height: 50px;
     border: 2px solid hsl(0, 0%, 40%);
     border-radius: 6px;
@@ -322,7 +325,7 @@ footer p {
   }
 
   #lastname {
-    width: 250px;
+    width: 200px;
     height: 50px;
     border: 2px solid hsl(0, 0%, 40%);
     border-radius: 6px;
@@ -330,7 +333,7 @@ footer p {
   }
 
   #postcode {
-    width: 265px;
+    width: 200px;
     height: 50px;
     border: 2px solid hsl(0, 0%, 40%);
     border-radius: 6px;
@@ -338,7 +341,7 @@ footer p {
   }
 
   #address {
-    width: 525px;
+    width: 350px;
     height: 50px;
     border: 2px solid hsl(0, 0%, 40%);
     border-radius: 6px;
@@ -346,7 +349,7 @@ footer p {
   }
 
   #city {
-    width: 250px;
+    width: 200px;
     height: 55px;
     border-radius: 6px;
     margin-bottom: 27px;
@@ -376,7 +379,7 @@ footer p {
 
   .section_2 img {
     height: 100%;
-    width: 100%;
+    width: 50%;
     margin-top: 0px;
     margin-bottom: 0px;
   }
