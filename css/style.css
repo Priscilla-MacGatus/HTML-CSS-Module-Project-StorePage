@@ -86,9 +86,12 @@ nav li {
   display: none;
 }
 .section_2 h1 {
-  font-size: 20px;
-  margin-top: 25px;
-  font-weight: 500;
+  font-size: 30px;
+  text-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .icon-display-for-media-queries-only {
