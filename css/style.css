@@ -192,7 +192,7 @@ footer p {
 
 /*---------------BREAKPOINT SECTION ------------------*/
 
-@media (min-width: 565px) {
+@media (min-width: 768px) {
   header {
     box-sizing: border-box;
     display: grid;
