@@ -23,8 +23,7 @@ header img {
   width: 100%;
   border: none;
   height: 0.3px;
-  background-color: lightgray;
-  filter: blur(0.8px);
+  background-color: gray;
   margin-bottom: 0px;
 }
 
@@ -219,6 +218,7 @@ button {
 /*-------------------------FOOTER----------------------*/
 .footer-line {
   width: 100%;
+  background-color: gray;
 }
 
 .social_platform img {
