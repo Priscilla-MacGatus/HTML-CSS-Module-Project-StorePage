@@ -583,14 +583,17 @@ footer p {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top: 70px;
   }
 
   .section_3 img {
-    width: 800;
+    width: 60%;
+    height: 60vh;
   }
 
   .sub-sect3-box {
     width: fit-content;
+    height: 60vh;
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
@@ -628,7 +631,7 @@ footer p {
 
   hr {
     margin-top: 70px;
-    width: 100%;
+    width: 70%;
     border: none;
     height: 0.5px;
     background-color: lightgray;
